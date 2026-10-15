@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- The Oruva Newsletter — EDITION EMAIL TEMPLATE
+     Modelled on Ventures Platform "Series V" edition email (7 Oct 2026):
+     view-in-browser, edition brand, personal greeting, data-led intro, lead essay,
+     expert interview, opportunities/jobs, resource, Read Full Article CTAs to the web platform.
+     From: The Oruva Newsletter <newsletter@oruva.com.ng>  Reply-To: communication@oruva.com.ng
+     Merge tags: {{first_name}} {{edition_no}} {{edition_title}} {{browser_url}}
+                 {{lead_url}} {{preferences_url}} {{unsubscribe_url}} -->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{edition_title}} — The Oruva Newsletter {{edition_no}}</title></head>
+<body style="margin:0;background:#f7f5f0;font-family:Arial,Helvetica,sans-serif;color:#1c2430">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td align="center" style="padding:22px 12px">
+<p style="font-size:12px;color:#5b6675"><a href="{{browser_url}}" style="color:#0b2a4a">View this email in browser</a></p>
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;background:#ffffff;border-radius:14px;overflow:hidden">
+<tr><td style="background:#081e3a;padding:24px 34px;color:#ffffff">
+<p style="margin:0;letter-spacing:3px;font-size:11px;color:#c9a45c;font-weight:bold">THE ORUVA NEWSLETTER · {{edition_no}}</p>
+<h1 style="margin:8px 0 0;font-family:Georgia,serif;font-size:25px">{{edition_title}}</h1></td></tr>
+<tr><td style="padding:26px 34px;line-height:1.65">
+<p>Hi {{first_name}},</p>
+<p>{{intro_paragraph}}</p>
+<p>Grab a cup of coffee and enjoy reading.</p>
+<h2 style="font-family:Georgia,serif;color:#ffffff;background:#e4572e;border-radius:8px;padding:8px 14px">Fresh Roads — the lead story</h2>
+<p>{{lead_excerpt}}</p>
+<p><a href="{{lead_url}}" style="display:inline-block;background:#c9a45c;color:#081e3a;font-weight:bold;padding:11px 22px;border-radius:999px;text-decoration:none">Read Full Article</a>
+&nbsp; <span style="color:#5b6675;font-size:13px">Then comment, like, rate and repost it on the platform.</span></p>
+<h2 style="font-family:Georgia,serif;color:#ffffff;background:#0e7c86;border-radius:8px;padding:8px 14px">Transport Explained</h2>
+<p>{{explainer_excerpt}} <a href="{{explainer_url}}" style="color:#0b2a4a">Continue reading</a></p>
+<h2 style="font-family:Georgia,serif;color:#ffffff;background:#a9853d;border-radius:8px;padding:8px 14px">Capital &amp; Opportunities</h2>
+<p>{{opportunities_summary}}</p>
+<ul>{{opportunities_list_items}}</ul>
+<p><a href="https://newsletter.oruva.com.ng/#/opportunities" style="color:#0b2a4a"><strong>See the full Opportunities Board</strong></a></p>
+<h2 style="font-family:Georgia,serif;color:#ffffff;background:#2f9e44;border-radius:8px;padding:8px 14px">Expert on the Road</h2>
+<p>{{expert_excerpt}} <a href="{{expert_url}}" style="color:#0b2a4a">Read the interview</a></p>
+<h2 style="font-family:Georgia,serif;color:#ffffff;background:#f08c00;border-radius:8px;padding:8px 14px">Resource of the edition</h2>
+<p>{{resource_text}}</p>
+<!-- Adopted from Reddit's Daily Digest + Pinterest's "Pins for you" (inbox research, 2026-10-15):
+     a trending block for everyone, and a personalised block built from the sections
+     each member saves and votes in. Subject-line style: one idea, curiosity-led
+     (Pinterest/Luno pattern) — e.g. "The 10% drivers are demanding is already written down". -->
+<h2 style="font-family:Georgia,serif;color:#ffffff;background:#e4572e;border-radius:8px;padding:8px 14px">🔥 Trending in the community</h2>
+<p>{{trending_list_items}}</p>
+<h2 style="font-family:Georgia,serif;color:#ffffff;background:#d6336c;border-radius:8px;padding:8px 14px">📌 Picked for you, {{first_name}}</h2>
+<p>Because you read and save from the sections you follow:</p>
+<ul>{{for_you_list_items}}</ul>
+<p style="background:#f7f5f0;border:1px solid #e6e0d2;border-radius:10px;padding:14px 16px">💬 <strong>Join the discussion:</strong> every edition lives on <a href="https://newsletter.oruva.com.ng" style="color:#0b2a4a">newsletter.oruva.com.ng</a>, where your account lets you comment, like, rate, repost — and build your own verified presence.</p>
+</td></tr>
+<tr><td style="padding:20px 34px;background:#f7f5f0;color:#5b6675;font-size:12px;line-height:1.6">
+<p style="margin:0">Copyright © 2026 Oruva Transportation Services, All rights reserved.<br>
+You are receiving this email because you opted in via newsletter.oruva.com.ng.</p>
+<p><strong>Our mailing address is:</strong><br>Oruva Transportation Services, Osogbo, Osun State, Nigeria</p>
+<p>Want to change how you receive these emails? You can <a href="{{preferences_url}}" style="color:#0b2a4a">update your preferences</a> or <a href="{{unsubscribe_url}}" style="color:#0b2a4a">unsubscribe from this list</a>.</p>
+<p>🔒 Oruva will never ask for your password by email. If an email asks for it, it is not from us — forward it to complaints@oruva.com.ng.</p>
+</td></tr></table></td></tr></table>
+</body></html>
